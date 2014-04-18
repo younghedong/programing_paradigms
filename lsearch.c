@@ -28,6 +28,7 @@ int main()
     int array[3] = { 1, 2, 3};
     int key = 2;
     int *res = lsearch(&key, array, 3, sizeof(int));
-    printf("%d \n", *res);
+    if(res)
+        printf("%d \n", *res);
     return 0;
 }
