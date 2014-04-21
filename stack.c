@@ -1,3 +1,7 @@
+/********************
+ * int 类型的stack
+ *
+ * ******************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
